@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Object Repository/Page_VisionStack/input__el-input
 
 WebUI.click(findTestObject('Object Repository/Page_VisionStack/i__el-select__caret el-input__'))
 
-WebUI.waitForAlert(2)
+WebUI.waitForAlert(3)
 
 WebUI.click(findTestObject('Page_VisionStack/span_590'), FailureHandling.STOP_ON_FAILURE)
 
