@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+fuzai1,Chrome 72.0.3626.81,,2019-02-22 10:02:28,2019-02-22 10:02:53,25.359s,PASSED
+,,,,,,
+Test Cases/fuzai1,Chrome 72.0.3626.81,,2019-02-22 10:02:28,2019-02-22 10:02:53,25.143s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-02-22 10:02:29,2019-02-22 10:02:32,3.483s,PASSED
+"navigateToUrl(""http://192.168.6.64/#/"")",Chrome 72.0.3626.81,,2019-02-22 10:02:32,2019-02-22 10:02:35,2.513s,PASSED
+"setText(findTestObject(""fuzai1/Page_VisionStack/input__username""), ""admin"")",Chrome 72.0.3626.81,,2019-02-22 10:02:35,2019-02-22 10:02:35,0.160s,PASSED
+"setEncryptedText(findTestObject(""fuzai1/Page_VisionStack/input__password""), ""MjBx0EvJu5YFFplPJZ1HyA=="")",Chrome 72.0.3626.81,,2019-02-22 10:02:35,2019-02-22 10:02:35,0.149s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/button_ - Copy""), STOP_ON_FAILURE)",Chrome 72.0.3626.81,,2019-02-22 10:02:35,2019-02-22 10:02:35,0.084s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/div_""))",Chrome 72.0.3626.81,,2019-02-22 10:02:35,2019-02-22 10:02:37,2.127s,PASSED
+waitForAlert(3),Chrome 72.0.3626.81,,2019-02-22 10:02:37,2019-02-22 10:02:40,3.096s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/li_""))",Chrome 72.0.3626.81,,2019-02-22 10:02:40,2019-02-22 10:02:40,0.130s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/button_""))",Chrome 72.0.3626.81,,2019-02-22 10:02:40,2019-02-22 10:02:41,0.594s,PASSED
+"setText(findTestObject(""fuzai1/Page_VisionStack/input__el-input__inner""), test)",Chrome 72.0.3626.81,,2019-02-22 10:02:41,2019-02-22 10:02:41,0.220s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/i__el-select__caret el-input__""))",Chrome 72.0.3626.81,,2019-02-22 10:02:41,2019-02-22 10:02:41,0.094s,PASSED
+waitForAlert(3),Chrome 72.0.3626.81,,2019-02-22 10:02:41,2019-02-22 10:02:44,3.033s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/li_590""))",Chrome 72.0.3626.81,,2019-02-22 10:02:44,2019-02-22 10:02:44,0.082s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/i__el-select__caret el-input___1""))",Chrome 72.0.3626.81,,2019-02-22 10:02:44,2019-02-22 10:02:45,0.086s,PASSED
+waitForAlert(3),Chrome 72.0.3626.81,,2019-02-22 10:02:45,2019-02-22 10:02:48,3.032s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/li__1""))",Chrome 72.0.3626.81,,2019-02-22 10:02:48,2019-02-22 10:02:48,0.070s,PASSED
+"click(findTestObject(""fuzai1/Page_VisionStack/button__1""))",Chrome 72.0.3626.81,,2019-02-22 10:02:48,2019-02-22 10:02:48,0.072s,PASSED
+"verifyElementPresent(findTestObject(""fuzai1/Page_VisionStack/input__el-input__inner""), 0)",Chrome 72.0.3626.81,,2019-02-22 10:02:48,2019-02-22 10:02:48,0.026s,PASSED
+waitForAlert(5),Chrome 72.0.3626.81,,2019-02-22 10:02:48,2019-02-22 10:02:53,5.055s,PASSED
+closeBrowser(),Chrome 72.0.3626.81,,2019-02-22 10:02:53,2019-02-22 10:02:53,0.648s,PASSED

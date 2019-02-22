@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="denglu-copy" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="denglu-copy" tests="1" failures="0" errors="0" time="12" timestamp="2019-02-22 10:02:55" hostname="WJ - WJ" id="Test Suites/denglu-copy">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon\\file\\fuzai\\Reports\\denglu-copy\\20190222_100212"/>
+         <property name="logFiles" value="E:\\Katalon\\file\\fuzai\\Reports\\denglu-copy\\20190222_100212\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WJ - WJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.81"/>
+         <property name="hostAddress" value="192.168.2.110"/>
+         <property name="sessionId" value="8a134e1bae412ae914c32798fae8fc22"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/denglu - Copy" classname="Test Cases/denglu - Copy" status="PASSED">
+         <system-out><![CDATA[2019-02-22 10:02:55 - [TEST_CASE][PASSED] - Test Cases/denglu - Copy: Test Cases/denglu - Copy
+
+2019-02-22 10:02:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-22 10:02:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-22 10:02:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-22 10:02:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-22 10:02:58 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.6.64/#/"): Navigate to 'http://192.168.6.64/#/' successfully
+
+2019-02-22 10:03:01 - [MESSAGE][PASSED] - Navigate to 'http://192.168.6.64/#/' successfully
+
+2019-02-22 10:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/denglu/Page_VisionStack/input__username"), "admin"): Text 'admin' is set on object 'Object Repository/denglu/Page_VisionStack/input__username'
+
+2019-02-22 10:03:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/denglu/Page_VisionStack/input__username'
+
+2019-02-22 10:03:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/denglu/Page_VisionStack/input__password"), "MjBx0EvJu5YFFplPJZ1HyA=="): Text ****** has been set on object 'Object Repository/denglu/Page_VisionStack/input__password'
+
+2019-02-22 10:03:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/denglu/Page_VisionStack/input__password'
+
+2019-02-22 10:03:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/denglu/Page_VisionStack/button_")): Object: 'Object Repository/denglu/Page_VisionStack/button_' is clicked on
+
+2019-02-22 10:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/denglu/Page_VisionStack/button_' is clicked on
+
+2019-02-22 10:03:01 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+2019-02-22 10:03:06 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2019-02-22 10:03:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("yanzheg/Page_VisionStack/denglu1"), "admin"): Actual text and expected text of test object 'Object Repository/yanzheg/Page_VisionStack/denglu1' are matched.
+
+2019-02-22 10:03:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/yanzheg/Page_VisionStack/denglu1' are matched.
+
+2019-02-22 10:03:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-22 10:03:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-22 10:02:55 - [TEST_SUITE][PASSED] - denglu-copy: Test Cases/denglu - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

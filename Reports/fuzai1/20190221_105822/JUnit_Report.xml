@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="fuzai1" time="47" tests="2" failures="0" errors="0">
+   <testsuite name="fuzai1" tests="2" failures="0" errors="0" time="47" timestamp="2019-02-21 10:58:23" hostname="WJ - WJ" id="Test Suites/fuzai1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon\\file\\fuzai\\Reports\\fuzai1\\20190221_105822"/>
+         <property name="logFiles" value="E:\\Katalon\\file\\fuzai\\Reports\\fuzai1\\20190221_105822\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WJ - WJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.81"/>
+         <property name="hostAddress" value="192.168.2.110"/>
+         <property name="sessionId" value="74e86c732018591a416d86b55f801835"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/fuzai1" classname="Test Cases/fuzai1" status="PASSED">
+         <system-out><![CDATA[2019-02-21 10:58:23 - [TEST_CASE][PASSED] - Test Cases/fuzai1: Test Cases/fuzai1
+
+2019-02-21 10:58:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-21 10:58:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-21 10:58:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-21 10:58:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-21 10:58:27 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.6.64/#/"): Navigate to 'http://192.168.6.64/#/' successfully
+
+2019-02-21 10:58:31 - [MESSAGE][PASSED] - Navigate to 'http://192.168.6.64/#/' successfully
+
+2019-02-21 10:58:31 - [TEST_STEP][PASSED] - setText(findTestObject("fuzai1/Page_VisionStack/input__username"), "admin"): Text 'admin' is set on object 'Object Repository/fuzai1/Page_VisionStack/input__username'
+
+2019-02-21 10:58:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/fuzai1/Page_VisionStack/input__username'
+
+2019-02-21 10:58:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("fuzai1/Page_VisionStack/input__password"), "MjBx0EvJu5YFFplPJZ1HyA=="): Text ****** has been set on object 'Object Repository/fuzai1/Page_VisionStack/input__password'
+
+2019-02-21 10:58:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fuzai1/Page_VisionStack/input__password'
+
+2019-02-21 10:58:31 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/button_ - Copy"), STOP_ON_FAILURE): Object: 'Object Repository/fuzai1/Page_VisionStack/button_ - Copy' is clicked on
+
+2019-02-21 10:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/button_ - Copy' is clicked on
+
+2019-02-21 10:58:31 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/div_")): Object: 'Object Repository/fuzai1/Page_VisionStack/div_' is clicked on
+
+2019-02-21 10:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/div_' is clicked on
+
+2019-02-21 10:58:33 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/li_")): Object: 'Object Repository/fuzai1/Page_VisionStack/li_' is clicked on
+
+2019-02-21 10:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/li_' is clicked on
+
+2019-02-21 10:58:33 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/button_")): Object: 'Object Repository/fuzai1/Page_VisionStack/button_' is clicked on
+
+2019-02-21 10:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/button_' is clicked on
+
+2019-02-21 10:58:34 - [TEST_STEP][PASSED] - setText(findTestObject("fuzai1/Page_VisionStack/input__el-input__inner"), test): Text 'auto11' is set on object 'Object Repository/fuzai1/Page_VisionStack/input__el-input__inner'
+
+2019-02-21 10:58:34 - [MESSAGE][PASSED] - Text 'auto11' is set on object 'Object Repository/fuzai1/Page_VisionStack/input__el-input__inner'
+
+2019-02-21 10:58:34 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/i__el-select__caret el-input__")): Object: 'Object Repository/fuzai1/Page_VisionStack/i__el-select__caret el-input__' is clicked on
+
+2019-02-21 10:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/i__el-select__caret el-input__' is clicked on
+
+2019-02-21 10:58:34 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2019-02-21 10:58:37 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2019-02-21 10:58:37 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/li_590")): Object: 'Object Repository/fuzai1/Page_VisionStack/li_590' is clicked on
+
+2019-02-21 10:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/li_590' is clicked on
+
+2019-02-21 10:58:38 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/i__el-select__caret el-input___1")): Object: 'Object Repository/fuzai1/Page_VisionStack/i__el-select__caret el-input___1' is clicked on
+
+2019-02-21 10:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/i__el-select__caret el-input___1' is clicked on
+
+2019-02-21 10:58:38 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2019-02-21 10:58:41 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2019-02-21 10:58:41 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/li__1")): Object: 'Object Repository/fuzai1/Page_VisionStack/li__1' is clicked on
+
+2019-02-21 10:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/li__1' is clicked on
+
+2019-02-21 10:58:41 - [TEST_STEP][PASSED] - click(findTestObject("fuzai1/Page_VisionStack/button__1")): Object: 'Object Repository/fuzai1/Page_VisionStack/button__1' is clicked on
+
+2019-02-21 10:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/fuzai1/Page_VisionStack/button__1' is clicked on
+
+2019-02-21 10:58:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("fuzai1/Page_VisionStack/input__el-input__inner"), 0): Object 'Object Repository/fuzai1/Page_VisionStack/input__el-input__inner' is present
+
+2019-02-21 10:58:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2019-02-21 10:58:41 - [MESSAGE][PASSED] - Object 'Object Repository/fuzai1/Page_VisionStack/input__el-input__inner' is present
+
+2019-02-21 10:58:41 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+2019-02-21 10:58:46 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2019-02-21 10:58:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-21 10:58:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/zhuji1" classname="Test Cases/zhuji1" status="PASSED">
+         <system-out><![CDATA[2019-02-21 10:58:47 - [TEST_CASE][PASSED] - Test Cases/zhuji1: Test Cases/zhuji1
+
+2019-02-21 10:58:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-21 10:58:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-21 10:58:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-21 10:58:49 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.6.64/#/"): Navigate to 'http://192.168.6.64/#/' successfully
+
+2019-02-21 10:58:51 - [MESSAGE][PASSED] - Navigate to 'http://192.168.6.64/#/' successfully
+
+2019-02-21 10:58:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/zhuji1/Page_VisionStack/input__username"), "admin"): Text 'admin' is set on object 'Object Repository/zhuji1/Page_VisionStack/input__username'
+
+2019-02-21 10:58:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/zhuji1/Page_VisionStack/input__username'
+
+2019-02-21 10:58:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/zhuji1/Page_VisionStack/input__password"), "MjBx0EvJu5YFFplPJZ1HyA=="): Text ****** has been set on object 'Object Repository/zhuji1/Page_VisionStack/input__password'
+
+2019-02-21 10:58:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/zhuji1/Page_VisionStack/input__password'
+
+2019-02-21 10:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/button_")): Object: 'Object Repository/zhuji1/Page_VisionStack/button_' is clicked on
+
+2019-02-21 10:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/button_' is clicked on
+
+2019-02-21 10:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/div_")): Object: 'Object Repository/zhuji1/Page_VisionStack/div_' is clicked on
+
+2019-02-21 10:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/div_' is clicked on
+
+2019-02-21 10:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/div__1")): Object: 'Object Repository/zhuji1/Page_VisionStack/div__1' is clicked on
+
+2019-02-21 10:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/div__1' is clicked on
+
+2019-02-21 10:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/li_")): Object: 'Object Repository/zhuji1/Page_VisionStack/li_' is clicked on
+
+2019-02-21 10:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/li_' is clicked on
+
+2019-02-21 10:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/button__1")): Object: 'Object Repository/zhuji1/Page_VisionStack/button__1' is clicked on
+
+2019-02-21 10:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/button__1' is clicked on
+
+2019-02-21 10:58:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/zhuji1/Page_VisionStack/input__el-input__inner"), "789"): Text '789' is set on object 'Object Repository/zhuji1/Page_VisionStack/input__el-input__inner'
+
+2019-02-21 10:58:54 - [MESSAGE][PASSED] - Text '789' is set on object 'Object Repository/zhuji1/Page_VisionStack/input__el-input__inner'
+
+2019-02-21 10:58:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/zhuji1/Page_VisionStack/input__el-input__inner_1"), mima): Text 'Aa123456' is set on object 'Object Repository/zhuji1/Page_VisionStack/input__el-input__inner_1'
+
+2019-02-21 10:58:54 - [MESSAGE][PASSED] - Text 'Aa123456' is set on object 'Object Repository/zhuji1/Page_VisionStack/input__el-input__inner_1'
+
+2019-02-21 10:58:54 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2019-02-21 10:58:57 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2019-02-21 10:58:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/i__el-select__caret el-input__")): Object: 'Object Repository/zhuji1/Page_VisionStack/i__el-select__caret el-input__' is clicked on
+
+2019-02-21 10:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/i__el-select__caret el-input__' is clicked on
+
+2019-02-21 10:58:57 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2019-02-21 10:59:00 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2019-02-21 10:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/li_560")): Object: 'Object Repository/zhuji1/Page_VisionStack/li_560' is clicked on
+
+2019-02-21 10:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/li_560' is clicked on
+
+2019-02-21 10:59:00 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2019-02-21 10:59:04 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2019-02-21 10:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/i__el-select__caret el-input___1")): Object: 'Object Repository/zhuji1/Page_VisionStack/i__el-select__caret el-input___1' is clicked on
+
+2019-02-21 10:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/i__el-select__caret el-input___1' is clicked on
+
+2019-02-21 10:59:04 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2019-02-21 10:59:07 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2019-02-21 10:59:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/li__1")): Object: 'Object Repository/zhuji1/Page_VisionStack/li__1' is clicked on
+
+2019-02-21 10:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/li__1' is clicked on
+
+2019-02-21 10:59:07 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2019-02-21 10:59:10 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2019-02-21 10:59:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/zhuji1/Page_VisionStack/button__2")): Object: 'Object Repository/zhuji1/Page_VisionStack/button__2' is clicked on
+
+2019-02-21 10:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/zhuji1/Page_VisionStack/button__2' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-21 10:58:23 - [TEST_SUITE][PASSED] - fuzai1: Test Cases/zhuji1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

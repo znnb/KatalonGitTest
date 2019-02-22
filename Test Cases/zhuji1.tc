@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>zhuji1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb7ba1a3-61a3-4b47-912a-20275c75fe53</testCaseGuid>
+   <variable>
+      <defaultValue>'Aa123456'</defaultValue>
+      <description></description>
+      <id>58e9956b-8060-474f-a955-0b0753e8a30f</id>
+      <masked>false</masked>
+      <name>mima</name>
+   </variable>
+</TestCaseEntity>

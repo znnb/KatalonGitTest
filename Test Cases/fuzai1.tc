@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fuzai1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d129eacf-623c-41d9-961b-70676f30b3ea</testCaseGuid>
+   <variable>
+      <defaultValue>'auto11'</defaultValue>
+      <description></description>
+      <id>a0ef5b68-7555-44fd-87b5-9b338bfa76c1</id>
+      <masked>false</masked>
+      <name>test</name>
+   </variable>
+</TestCaseEntity>

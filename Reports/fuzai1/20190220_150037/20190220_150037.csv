@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+fuzai1,Chrome 72.0.3626.81,,2019-02-20 15:00:39,2019-02-20 15:00:55,16.481s,ERROR
+,,,,,,
+Test Cases/fuzai1,Chrome 72.0.3626.81,,2019-02-20 15:00:39,2019-02-20 15:00:45,5.853s,ERROR
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-02-20 15:00:39,2019-02-20 15:00:42,3.323s,PASSED
+"navigateToUrl(""http://192.168.6.64/#/"")",Chrome 72.0.3626.81,,2019-02-20 15:00:42,2019-02-20 15:00:44,2.000s,PASSED
+"setText(findTestObject(""fuzai1/Page_VisionStack/input__username""), ""admin"")",Chrome 72.0.3626.81,,2019-02-20 15:00:44,2019-02-20 15:00:44,0.138s,PASSED
+"setEncryptedText(findTestObject(""fuzai1/Page_VisionStack/input__password""), ""MjBx0EvJu5YFFplPJZ1HyA=="")",Chrome 72.0.3626.81,,2019-02-20 15:00:44,2019-02-20 15:00:45,0.170s,PASSED
+"sendKeys(findTestObject(""fuzai1/Page_VisionStack/input__password""), Keys.chord(ENTER))",Chrome 72.0.3626.81,,2019-02-20 15:00:45,2019-02-20 15:00:45,0.014s,ERROR
+,,,,,,
+Test Cases/fuzai1,Chrome 72.0.3626.81,,2019-02-20 15:00:45,2019-02-20 15:00:49,4.836s,ERROR
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-02-20 15:00:45,2019-02-20 15:00:47,2.911s,PASSED
+"navigateToUrl(""http://192.168.6.64/#/"")",Chrome 72.0.3626.81,,2019-02-20 15:00:47,2019-02-20 15:00:49,1.663s,PASSED
+"setText(findTestObject(""fuzai1/Page_VisionStack/input__username""), ""admin"")",Chrome 72.0.3626.81,,2019-02-20 15:00:49,2019-02-20 15:00:49,0.128s,PASSED
+"setEncryptedText(findTestObject(""fuzai1/Page_VisionStack/input__password""), ""MjBx0EvJu5YFFplPJZ1HyA=="")",Chrome 72.0.3626.81,,2019-02-20 15:00:49,2019-02-20 15:00:49,0.115s,PASSED
+"sendKeys(findTestObject(""fuzai1/Page_VisionStack/input__password""), Keys.chord(ENTER))",Chrome 72.0.3626.81,,2019-02-20 15:00:49,2019-02-20 15:00:49,0.007s,ERROR
+,,,,,,
+Test Cases/fuzai1,Chrome 72.0.3626.81,,2019-02-20 15:00:49,2019-02-20 15:00:54,4.885s,ERROR
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-02-20 15:00:49,2019-02-20 15:00:52,2.927s,PASSED
+"navigateToUrl(""http://192.168.6.64/#/"")",Chrome 72.0.3626.81,,2019-02-20 15:00:52,2019-02-20 15:00:54,1.723s,PASSED
+"setText(findTestObject(""fuzai1/Page_VisionStack/input__username""), ""admin"")",Chrome 72.0.3626.81,,2019-02-20 15:00:54,2019-02-20 15:00:54,0.108s,PASSED
+"setEncryptedText(findTestObject(""fuzai1/Page_VisionStack/input__password""), ""MjBx0EvJu5YFFplPJZ1HyA=="")",Chrome 72.0.3626.81,,2019-02-20 15:00:54,2019-02-20 15:00:54,0.109s,PASSED
+"sendKeys(findTestObject(""fuzai1/Page_VisionStack/input__password""), Keys.chord(ENTER))",Chrome 72.0.3626.81,,2019-02-20 15:00:54,2019-02-20 15:00:54,0.004s,ERROR

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+denglu-copy,Chrome 72.0.3626.81,,2019-02-22 09:56:49,2019-02-22 09:57:00,11.874s,PASSED
+,,,,,,
+Test Cases/denglu - Copy,Chrome 72.0.3626.81,,2019-02-22 09:56:49,2019-02-22 09:57:00,11.681s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-02-22 09:56:49,2019-02-22 09:56:52,3.328s,PASSED
+"navigateToUrl(""http://192.168.6.64/#/"")",Chrome 72.0.3626.81,,2019-02-22 09:56:52,2019-02-22 09:56:54,1.878s,PASSED
+"setText(findTestObject(""Object Repository/denglu/Page_VisionStack/input__username""), ""admin"")",Chrome 72.0.3626.81,,2019-02-22 09:56:54,2019-02-22 09:56:54,0.172s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/denglu/Page_VisionStack/input__password""), ""MjBx0EvJu5YFFplPJZ1HyA=="")",Chrome 72.0.3626.81,,2019-02-22 09:56:54,2019-02-22 09:56:55,0.171s,PASSED
+"click(findTestObject(""Object Repository/denglu/Page_VisionStack/button_""))",Chrome 72.0.3626.81,,2019-02-22 09:56:55,2019-02-22 09:56:55,0.076s,PASSED
+waitForAlert(5),Chrome 72.0.3626.81,,2019-02-22 09:56:55,2019-02-22 09:57:00,5.088s,PASSED
+"verifyElementText(findTestObject(""yanzheg/Page_VisionStack/denglu1""), ""admin"")",Chrome 72.0.3626.81,,2019-02-22 09:57:00,2019-02-22 09:57:00,0.042s,PASSED
+closeBrowser(),Chrome 72.0.3626.81,,2019-02-22 09:57:00,2019-02-22 09:57:00,0.656s,PASSED
