@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Object Repository/Page_VisionStack/button_'))
 
 WebUI.click(findTestObject('Object Repository/Page_VisionStack/div_'))
 
+WebUI.waitForAlert(3)
+
 WebUI.click(findTestObject('Object Repository/Page_VisionStack/li_'))
 
 WebUI.click(findTestObject('Object Repository/Page_VisionStack/span_'))
